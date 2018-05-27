@@ -1,0 +1,1 @@
+php71 -d xdebug.remote_enable=1 -d xdebug.remote_handler=dbgp -d xdebug.remote_mode=req -d xdebug.remote_host=localhost -d xdebug.remote_port=9001 -d xdebug.remote_autostart=1 -d zend_extension=/opt/local/lib/php71/extensions/no-debug-non-zts-20160303/xdebug.so vendor/bin/phpunit --bootstrap vendor/autoload.php tests/EmailTest

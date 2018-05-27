@@ -1,0 +1,14 @@
+{
+    "name": "runtimeconvertertest/testproject-phpunit",
+    "description": "test project for phpunit for unit testing of runtime converter",
+    "type": "project",
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^7"
+    },
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    }
+}
